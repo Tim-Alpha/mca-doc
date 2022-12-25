@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const ejs = require('ejs');
 const _ = require('lodash');
 const { title } = require('process');
-const port = 3000
+const port = 5000
 
 const app = express();
 let imgURL = ["/Images/MCS-201 Programming in C and Python.png","/Images/MCS-208 Data Structures and Algorithms.png","/Images/MCS-211 Design-and-Analysis-of-Algorithms.jpg","/Images/MCS-212 Discrete-Mathematics.jpg","/Images/MCS-213 Software-Engineering.jpg","/Images/MCS-214 Professional-Skills-and-Ethics.jpg","/Images/MCS-215 Security-and-Cyber-Laws.jpg","/Images/MCSL-216 DAA-and-Web-Design-Lab.jpg","/Images/MCSL-217 Software-Engineering-Lab.jpg"];
