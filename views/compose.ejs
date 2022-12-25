@@ -1,0 +1,14 @@
+<%- include("header"); -%>
+
+    <div class="container">
+        <h1>Compose</h1>
+        <form action="/compose" method="post">
+            <label for="title">Title</label>
+            <input type="text" id="title" name="postTitle">
+            <label for="subject">Post</label>
+            <textarea id="subject" name="postBody" rows="5" cols="10"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+<%- include("footer"); -%>
