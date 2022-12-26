@@ -1,0 +1,16 @@
+<%- include('header'); -%>
+<div class="postTitle">
+    <h2 style="text-align: center;"><%= title[2] %></h2>
+</div>
+<div class="flex-container">
+   
+    <% for(let i=0; i< blockName.length; i++) { %>
+        <div class="course">
+            <a href="/subject/<%= blockTitle[2] %>/<%= blockName[i] %>">
+             <h2 style="text-decoration: none;"><%= blockName[i] %></h2>
+            </a></div>
+     <% } %>
+   
+ </div>
+
+<%- include("footer"); -%>
